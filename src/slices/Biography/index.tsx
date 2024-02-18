@@ -6,9 +6,7 @@ import { Content } from "@prismicio/client";
 
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 
-/**
- * Props for `Biography`.
- */
+
 export type BiographyProps = SliceComponentProps<Content.BiographySlice>;
 
 /**
