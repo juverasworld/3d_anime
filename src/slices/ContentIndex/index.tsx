@@ -10,9 +10,7 @@ import Heading from "@/components/Heading";
 export type BlogPostIndexProps =
   SliceComponentProps<Content.BlogPostIndexSlice>;
 
-/**
- * Component for "BlogPostIndex" Slices.
- */
+
 const BlogPostIndex = async ({
   slice,
 }: BlogPostIndexProps): Promise<JSX.Element> => {
